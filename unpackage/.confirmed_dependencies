@@ -1,0 +1,71 @@
+{
+  "h5/xiwang.html": {
+    "href": "h5/xiwang.html",
+    "resources": [
+      "h5/css.css",
+      "h5/shiyi.js",
+      "pc/rw_2.gif",
+      "pc/rw_22.gif",
+      "pc/rw_11.gif",
+      "pc/rw_1.gif",
+      "pc/tm.gif",
+      "h5/c.js",
+      "pc/ss_1.gif",
+      "pc/ss_3.gif",
+      "pc/delete.gif",
+      "pc/j_11.gif",
+      "pc/j_1.gif",
+      "pc/j_22.gif",
+      "pc/j_2.gif",
+      "pc/shangyi.png",
+      "pc/haha_1.gif",
+      "pc/t_25.gif",
+      "pc/waitao.png",
+      "pc/haha_2.gif",
+      "pc/nanyi3.jpg",
+      "pc/nanyi4.png",
+      "pc/nanyi5.png",
+      "pc/nanyi1.jpg",
+      "pc/nanyi2.jpg",
+      "pc/kuzi.png",
+      "pc/haha_3.gif",
+      "pc/nanku1.jpg",
+      "pc/nanku2.jpg",
+      "pc/nanku3.jpg",
+      "pc/nanku4.jpg",
+      "pc/nanku5.jpg",
+      "pc/nanku6.png",
+      "pc/nanku7.jpg",
+      "pc/nanku8.jpg",
+      "pc/women_sy.png",
+      "pc/haha_4.gif",
+      "pc/nvyi1.jpg",
+      "pc/nvyi2.jpg",
+      "pc/nvyi3.jpg",
+      "pc/nvyi4.jpg",
+      "pc/nvyi5.jpg",
+      "pc/nvyi6.jpg",
+      "pc/nvyi7.jpg",
+      "pc/nvyi8.jpg",
+      "pc/women_kuzi.png",
+      "pc/haha_5.gif",
+      "pc/nvku1.jpg",
+      "pc/nvku2.jpg",
+      "pc/t_86.gif",
+      "pc/t_87.gif"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "h5/login.html": {
+    "href": "h5/login.html",
+    "resources": [
+      "pc/bozhong.jpg",
+      "tianliang.mp3"
+    ],
+    "refer": [
+      "h5/xiwang.html"
+    ],
+    "priority": 0
+  }
+}

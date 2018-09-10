@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="15;url=xiwang.html"/>
+</head>
+<body background="../pc/bozhong.jpg"> 
+
+<form action="xiwang.html" method="post">
+账号:<br/>
+<input type="text" name="name">
+<br/>
+密码:<br/>
+<input type="password" name="password">
+<br/>
+身高（cm）：<br/>
+<input type="text" name="heigth">
+<br/>
+体重（kg）：<br/>
+<input type="text" name="weight">
+<br/>
+
+<input type="radio" name="sex" value="male" checked><a href="xiwang.html">2D</a>
+<br/>
+<input type="radio" name="sex" value="female">3D
+<br/>
+<input type="submit" value="提交">
+</form> 
+<br/>
+
+<p>如果您点击提交，页面将会跳转到下一页。</p>
+<p>如果您在15秒内没有响应，页面将自动进入2D页面。</p>
+<audio controls autoplay="autoplay">
+  <source src="../tianliang.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<br/>
+您所在的地球时间：<br/>
+<script language = "javascript">
+now=new Date();
+function initArray(){
+this.length=initArray.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArray.arguments[i] }
+var d=new initArray(
+"星期日",
+"星期一",
+"星期二",
+"星期三",
+"星期四",
+"星期五",
+"星期六");
+document.write(
+"<font color=##000000 style='font-size:20pt;font-family: 宋体'> ",
+now.getYear()+1900,"年",
+now.getMonth()+1,"月",
+now.getDate(),"日",
+d[now.getDay()+1],
+"</font>" );
+</script>
+
+</body>
+</html>
